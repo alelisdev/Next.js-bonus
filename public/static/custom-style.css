@@ -1,0 +1,176 @@
+html,
+body {
+    min-height: 100%;
+}
+
+.alert {
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: .9rem;
+  border: none;
+}
+.alert.alert-dismissible {
+  padding-right: 2em;
+}
+.alert.alert-icon {
+  padding-left: 40px;
+}
+.alert.alert-icon i {
+  float: left;
+  margin-left: -25px;
+  font-size: 1.1rem;
+  margin-top: 2px;
+}
+.alert-success {
+  color: #0f8a40;
+  background-color: #d7efdc;
+}
+.alert-primary {
+  color: #007bff;
+  background-color: #e8f0ff;
+}
+.alert-secondary {
+  color: #737376;
+  fill: #737376!important;
+  background-color: #ebebeb;
+}
+.alert a {
+  color: inherit;
+  text-decoration: underline;
+}
+.alert-dismissible .close {
+    padding: .5rem .75rem;
+}
+
+
+.navbar-brand {
+    line-height: 1.25rem;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.form-group.is-invalid .invalid-feedback {
+  display: block !important;
+}
+
+.btn-sm, .btn-sm.btn-styled {
+    padding: 0.525rem .8rem !important;
+    font-size: 0.875rem !important;
+}
+
+
+/* Template Preview iFrame */
+.design-preview {
+  position: relative;
+  height: 200px;
+}
+.design-preview .disable-iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+.design-preview iframe {
+  z-index: 5;
+  display: block;
+  border: none;
+  width: 200%;
+  height: 800px;
+  -ms-zoom: 0.5;
+  -ms-transform-origin: 0 0;
+  -moz-transform: scale(0.5);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.5);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+}
+
+/* Template Preview iFrame */
+.design-preview.design-preview-full {
+  height: 500px;
+}
+.design-preview.design-preview-full iframe {
+  width: 400%;
+  height: 2000px;
+  -ms-zoom: 0.25;
+  -ms-transform-origin: 0 0;
+  -moz-transform: scale(0.25);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.25);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.25);
+  -webkit-transform-origin: 0 0;
+}
+
+
+@media only screen and (max-width: 479px) {
+
+    .main-content form.form {
+        margin: 0 15px;
+    }
+
+}
+
+/* Hide image in s3direct widget when remove is hit */
+.s3direct .file-image {
+    display: none;
+    float: left;
+    clear: left;
+}
+
+.s3direct.link-active .file-image {
+    display: block;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.alphateam-bar {
+    border: none;
+    font-family: 'Expletus Sans', sans-serif;
+}
+
+.alphateam-bar a {
+    color: rgba(255,255,255,.8) !important;
+}
+
+.alphateam-bar a:hover {
+    color: rgba(255,255,255,1) !important;
+}
+
+.bg-alphateam {
+    background: -webkit-linear-gradient(left, #e9168c 2%, #f75254 99%);
+    color: white !important;
+}
+
+
+.select2-dropdown .select2-search--dropdown:before {
+    font-family: "Font Awesome 5 Pro" !important;
+}
+.swiper-button-prev:after {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f104";
+}
+.swiper-button-next:after {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f105";
+}
+.btn-back-to-top:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f106";
+}
+
+
+.form-control::placeholder {
+  opacity: .5;
+}
+
+.plus-form .tox-tinymce {
+  height: 500px;
+}
